@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<% include ./include/head %>
+<body>
+<% include ./include/nav %>
+<div class="container" style="text-align:center">
+    <div class="row">
+        <h1>Info</h1>
+    </div>
+    <hr>
+    <div class="row">
+        <ul class="list-group">
+            <h3>Information about <%= name %></h3>
+            <li class="list-group-item darxTxt">Name: <%= name %></li>
+            <li class="list-group-item darxTxt">Age: <%= age %></li>
+            <li class="list-group-item darxTxt">Type: <%= type %></li>
+        </ul>
+    </div>
+</div>
+
+<% include ./include/script.ejs %>
+<% include ./include/footer.ejs %>
+</body>
+</html>
